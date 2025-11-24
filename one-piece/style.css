@@ -1,0 +1,61 @@
+background-color: azure;
+h2{
+  color:rgb(22, 2, 66);
+}
+
+h1,p,#galeria,#cadastro,aside,{
+  text-align: center;
+}
+header{
+ background-image: url(https://wallpaperaccess.com/full/397997.jpg);
+ height: 500px;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+}
+form{
+  width: 300px;
+  color: aquamarine;
+  background-color: black;
+  margin: 0px auto;
+border-width: 10px;
+border-style: double;
+border-color: aqua;
+} 
+
+#lista-img img{
+  float: right;
+  margin-right: 200px;
+ }
+article, #lista-img{
+  overflow: auto;
+}
+
+.centralizartag{
+  width: fit-content;
+  margin: auto auto;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  background-color: azure;
+
+}
+.container-principal{
+  display: flex;
+  flex-direction: row;
+}
+
+aside{
+  width: fit-content;
+  margin: 0px;
+  background-color: rgb(181, 252, 252);
+  border-width: 10px;
+border-style: groove;
+border-color: cyan;
+}
+
+section{
+  flex: 1;
+  margin-top: 5px;
+}

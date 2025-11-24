@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cadastro</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>cadastro</h1>
+      <p>O anime mais longo do mundo, com sua fama incomparável</p>
+    </header>
+    <nav>
+      <a href="index.html">pagina principal</a>
+      <a href="personagens.html">personagens de one piece</a>
+      <a href="cadastro.html">cadastre-se</a>
+    </nav>
+    <section>
+      <article id="cadastro">
+        <h2>cadastre-se</h2>
+        <form class="formatarform" action="" id="formCadastro">
+          <label for="nome"> nome completo</label> <br />
+          <input
+            id="nome"
+            type="text"
+            placeholder="digite seu nome"
+            required
+          /><br />
+
+          <label for="email">email</label><br />
+          <input
+            id="email"
+            type="email"
+            placeholder="digite seu email"
+            required
+          /><br />
+
+          <label for="password">senha</label><br />
+          <input
+            id="senha"
+            type="password"
+            placeholder="digite sua senha"
+            required
+          /><br />
+
+          <label for="text">personagem favorito</label><br />
+          <input type="text" id="personagem" placeholder="personagem" /><br />
+
+          <label for="text">fruta favorita</label><br />
+          <input type="text" id="fruta" placeholder="fruta" /><br />
+
+          <label for="number">nota para o anime</label><br />
+          <input
+            type="number"
+            id="nota"
+            min="0"
+            max="10"
+            placeholder="nota"
+          /><br />
+
+          <input type="submit" />
+          <input type="reset" /> 
+          <div id="resultado"></div>
+          
+         
+        </form>
+      </article>
+    </section>
+    <footer>
+      <a href="#">ínicio</a>
+    </footer>
+  </body>
+</html>
