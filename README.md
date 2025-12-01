@@ -1,3 +1,8 @@
 # ONE-PIECE
 
-[Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/irisgomescale-pixel/ONE-PIECE)
+
+## descrição 
+esse é o site de one piece o anime mais longo e mais assistido do mundo!
+
+
+[link do site](www.gogle.com)
